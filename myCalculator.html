@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalco</title>
+    <link rel="stylesheet" href="./myCalco.css">
+    <script src="./myCalco.js" defer></script>
+</head>
+<body>
+   
+    <div class="container">
+        <header><h2>Scientific Calculator</h2></header>
+
+        <div class="screenContainer">
+            <input type="text" id="screen" placeholder="00" readonly>
+        </div>
+
+        <div class="buttons">
+            <button value="7" class="boutonNormaux"> 7 </button>
+            <button value="8" class="boutonNormaux"> 8 </button>
+            <button value="9" class="boutonNormaux"> 9 </button>
+            <button value="" class="erase"> <-</button>
+            <button value="" class="clear-screen"> CLS </button>
+            <button value="4" class="boutonNormaux"> 4 </button>
+            <button value="5" class="boutonNormaux"> 5 </button>
+            <button value="6" class="boutonNormaux"> 6 </button>
+            <button value="*" class="boutonNormaux"> * </button>
+            <button value="-" class="boutonNormaux"> - </button>
+            <button value="1" class="boutonNormaux"> 1 </button>
+            <button value="2" class="boutonNormaux"> 2 </button>
+            <button value="3" class="boutonNormaux"> 3 </button>
+            <button value="+" class="boutonNormaux"> + </button>
+            <button value="/" class="boutonNormaux"> / </button>
+            <button value="0" class="boutonNormaux"> 0 </button>
+            <button value="." class="boutonNormaux"> . </button>
+            <button value="" class="memory"> ANS </button>
+            <button value=""> 
+                <select name="select-formula" class="select-formula">
+                    <option value="">MATH:</option>
+                    <option value="cos">cos</option>
+                    <option value="sin">sin</option>
+                    <option value="tan">tan</option>
+                    
+                </select> 
+            </button>
+            <button value="" class="solve"> = </button>
+        </div>
+
+    </div>
+</body>
+</html>
